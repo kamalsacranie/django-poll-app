@@ -2,6 +2,7 @@ from django.urls import path
 # Importing our views we have created from the same directory
 from . import views
 
+app_name = 'polls'
 urlpatterns = [
     # we observe the path funciton taking nothing as the path, i.e. home
     # and then our uncalled function as the second arg
